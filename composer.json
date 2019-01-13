@@ -1,0 +1,34 @@
+{
+  "name": "laravel-rocket/reviewer",
+  "description": "Laravel Auto Code Reviewer.",
+  "keywords": ["laravel","boilerplate", "rocket"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Takaaki Mizuno",
+      "email": "takaaki.mizuno@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaravelRocket\\Reviewer\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1.3",
+    "ext-json": "*",
+    "nikic/PHP-Parser": "~4.0",
+    "guzzlehttp/guzzle": "~4.0|~5.0|~6.0",
+    "symfony/console": "~2.3|~3.0|~4.0",
+    "symfony/process": "~2.3|~3.0|~4.0",
+    "kevinlebrun/colors.php": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0",
+    "fzaninotto/faker": "~1.5"
+  },
+  "bin": [
+    "rocket-reviewer"
+  ]
+}
+
